@@ -9,8 +9,8 @@ const admin = require("firebase-admin");
 
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });
-const handle = app.getRequestHandler();
-
+const handle = app.getRequestHandler()
+/////////////
 
 const Conversation = require("./models/Conversation");
 const Message = require("./models/Message")
